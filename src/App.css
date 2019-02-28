@@ -260,3 +260,10 @@
   background-image: url("./images/bg.jpg");
 }
 
+.checked {
+  color: orange;
+}
+
+.reac {
+  background-color: red;
+}
