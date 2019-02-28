@@ -157,13 +157,13 @@ class Resume extends Component {
                   <br />
                 <p>C</p>
                   <div class="container">
-                    <div class="skills C"></div>
+                    <div class="skills c"></div>
                   </div>
 
                  <br />
                 <p>C++</p>
                   <div class="container">
-                    <div class="skills C++"></div>
+                    <div class="skills cpp"></div>
                   </div>
 
                   <br />
@@ -194,6 +194,12 @@ class Resume extends Component {
                 <p>Spring MVC</p>
                   <div class="container">
                     <div class="skills spring"></div>
+                  </div>
+
+                  <br />
+                <p>Hibernate</p>
+                  <div class="container">
+                    <div class="skills hibernate"></div>
                   </div>
 
                   <br />
