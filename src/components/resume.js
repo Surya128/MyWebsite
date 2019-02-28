@@ -22,7 +22,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Surya Prakash</h2>
-            <h5 style={{color: 'black'}}>Full Stack Web Developer</h5>
+            <h4 style={{color: 'black'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
             <p>Short Bio</p>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
