@@ -29,7 +29,7 @@ class LandingPage extends Component {
           
           <div className="banner-text">
                 <h1>
-                <img src={ require('../images/logo.png') } alt ="avatar" style ={ {height: '400px'} } />
+                Surya Prakash
                 <br />
                 <h2>Full Stack Web Developer</h2>
                 </h1>
