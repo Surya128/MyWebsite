@@ -28,7 +28,11 @@ class LandingPage extends Component {
           <Cell col={8}>
           
           <div className="banner-text">
-                <h1 color="#E50914">Surya Prakash<br /><h2>Full Stack Web Developer</h2></h1>
+                <h1>
+                <img src={ require('../images/logo.png') } alt ="avatar" style ={ {height: '400px'} } />
+                <br />
+                <h2>Full Stack Web Developer</h2>
+                </h1>
 
                 <p>React | React Native | HTML | CSS | JavaScript | Python | Flask | FireBase | Bootstrap </p>
 
