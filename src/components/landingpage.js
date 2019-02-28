@@ -23,7 +23,7 @@ class LandingPage extends Component {
               />
 
             <div className="banner-text">
-                <h1>Surya Prakash<br /><h2>Full Stack Web Developer</h2></h1>
+                <h1>Venkata Surya Prakash<br /><h2>Full Stack Web Developer</h2></h1>
 
                 <p>React | React Native | HTML | CSS | JavaScript | Python | Flask | FireBase | Bootstrap </p>
 
