@@ -11,17 +11,17 @@ class App extends Component {
     <Layout>
         <Header 
             className="header-color" 
-            title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+            title={<Link style={{textDecoration: 'none', color: '#E50914'}} to="/">MyPortfolio</Link>} scroll>
                 <Navigation>
-                    <Link to="/resume" >Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/resume" style={{color: 'white'}} >Resume</Link>
+                    <Link to="/aboutme" style={{color: 'white'}} >About Me</Link>
+                    <Link to="/projects" style={{color: 'white'}} >Projects</Link>
+                    <Link to="/contact" style={{color: 'white'}} >Contact</Link>
                 </Navigation>
         </Header>
 
         <Drawer 
-        title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>} 
+        title={<Link style={{textDecoration: 'none', color: '#E50914'}} to="/">MyPortfolio</Link>} 
         className="drawer"
         variant="permanent"
         >
