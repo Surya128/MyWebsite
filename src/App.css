@@ -198,7 +198,7 @@
 .container {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
-}
+} 
 
 .skills {
   text-align: right; /* Right-align text */
@@ -210,6 +210,23 @@
 .python {width: 80%; background-color: #0ACDD0;} /* Blue */
 .js {width: 65%; background-color: #DE5725;} /* Red */
 .html {width: 90%; background-color: #BD7308;}
+.react-native {width: 80%; background-color: #d1589b;}
+.css {width: 80%; background-color: #5143c9;}
+.java {width: 70%; background-color: #ddf317;}
+.c {width: 90%; background-color: #af2f2f;}
+.cpp {width: 80%; background-color: #189731;}
+.flask {width: 60%; background-color: #0ACDD0;}
+.node {width: 50%; background-color: #DE5725;}
+.bootstrap {width: 70%; background-color: #BD7308;}
+.docker {width: 70%; background-color: #d1589b;}
+.spring {width: 80%; background-color: #5143c9;}
+.hibernate {width: 70%; background-color: #ddf317;}
+.firebase {width: 90%; background-color: #af2f2f;}
+.sql {width: 90%; background-color: #189731;}
+.oracle {width: 90%; background-color: #0ACDD0;}
+.amazon {width: 70%; background-color: #DE5725;}
+.tableau-desktop {width: 90%; background-color: #BD7308;}
+.tableau-server {width: 70%; background-color: #5143c9;}
 
 
 /*Transition Styles*/
