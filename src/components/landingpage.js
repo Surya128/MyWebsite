@@ -14,16 +14,21 @@ class LandingPage extends Component {
     return(
       <div style={ sectionStyle } className="page">
         <Grid className="landing-grid" >
-          <Cell col={12}>
+          <Cell col={4}>
             <img
               src={ require('../images/my_pic.jpg') }
               alt="avatar"
               className="avatar-img"
               style={{height: '300px'}}
+              
               />
 
-            <div className="banner-text">
-                <h1>Surya Prakash<br /><h2>Full Stack Web Developer</h2></h1>
+            
+          </Cell>
+          <Cell col={8}>
+          
+          <div className="banner-text">
+                <h1 color="#E50914">Surya Prakash<br /><h2>Full Stack Web Developer</h2></h1>
 
                 <p>React | React Native | HTML | CSS | JavaScript | Python | Flask | FireBase | Bootstrap </p>
 
@@ -35,15 +40,12 @@ class LandingPage extends Component {
                   </a>
 
                   {/* Github */}
-                  <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                  <a href="https://github.com/Surya128" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square" aria-hidden="true" />
                   </a>
 
             
-                  {/* Youtube */}
-                  <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                    <i className="fa fa-youtube-square" aria-hidden="true" />
-                  </a>
+                 
 
                 </div>
             </div>
