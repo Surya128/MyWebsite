@@ -6,6 +6,7 @@ import Experience from './experience';
 
 
 
+
 class Resume extends Component {
   render() {
     return(
@@ -21,7 +22,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Surya Prakash</h2>
-            <h4 style={{color: 'black'}}>Full Stack Web Developer</h4>
+            <h5 style={{color: 'black'}}>Full Stack Web Developer</h5>
                         <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
             <p>Short Bio</p>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
@@ -51,7 +52,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             
-              <h2>Experience</h2>
+              <h3>Experience</h3>
 
             <Experience
               startMonth={10}
@@ -102,40 +103,42 @@ class Resume extends Component {
                 />
 
 
-              <hr style={{borderTop: '3px solid #58C7F4'}} />
+             <hr style={{borderTop: '3px solid #58C7F4'}} />
 
               <hr style={{borderTop: '3px solid #58C7F4'}} />
                 <h2>Skills</h2>
 
-                  <p>React</p>
+                <Grid>
+                  <Cell col={6}>
+                  <h5>React</h5>
                   <div class="container">
-                  <div class="skills react"></div>
+                    <div class="skills react"></div>
                   </div>
 
                   <br />
 
-                  <p>React Native</p>
+                  <h5>React Native</h5>
                   <div class="container">
                     <div class="skills react-native"></div>
                   </div>
 
                   <br />
 
-                  <p>JavaScript</p>
+                  <h5>JavaScript</h5>
                   <div class="container">
                     <div class="skills js"></div>
                   </div>
 
                   <br />
                 
-                <p>Python</p>
+                <h5>Python</h5>
                   <div class="container">
                     <div class="skills python"></div>
                   </div>
 
                 <br />
                  
-                <p>HTML</p>
+                <h5>HTML</h5>
                   <div class="container">
                     <div class="skills html"></div>
                   </div>
@@ -143,100 +146,107 @@ class Resume extends Component {
                  
                 
                 
-                <p>CSS</p>
+                <h5>CSS</h5>
                   <div class="container">
                     <div class="skills css"></div>
                   </div>
 
                   <br />
-                <p>Java</p>
+                <h5>Java</h5>
                   <div class="container">
                     <div class="skills java"></div>
                   </div>
 
                   <br />
-                <p>C</p>
+                <h5>C</h5>
                   <div class="container">
                     <div class="skills c"></div>
                   </div>
 
                  <br />
-                <p>C++</p>
+                <h5>C++</h5>
                   <div class="container">
                     <div class="skills cpp"></div>
                   </div>
 
-                  <br />
-                <p>Flask</p>
+                    <br />
+                <h5>Flask</h5>
                   <div class="container">
                     <div class="skills flask"></div>
                   </div>
 
                   <br />
-                <p>Node.js</p>
+                <h5>Node.js</h5>
                   <div class="container">
                     <div class="skills node"></div>
                   </div>
-
                   <br />
-                <p>BootStrap</p>
+
+                  </Cell>
+                  <Cell col={6}>
+
+                
+                  
+                <h5>BootStrap</h5>
                   <div class="container">
                     <div class="skills bootstrap"></div>
                   </div>
 
                   <br />
-                <p>Docker</p>
+                <h5>Docker</h5>
                   <div class="container">
                     <div class="skills docker"></div>
                   </div>
 
                   <br />
-                <p>Spring MVC</p>
+                <h5>Spring MVC</h5>
                   <div class="container">
                     <div class="skills spring"></div>
                   </div>
 
                   <br />
-                <p>Hibernate</p>
+                <h5>Hibernate</h5>
                   <div class="container">
                     <div class="skills hibernate"></div>
                   </div>
 
                   <br />
-                <p>Firebase</p>
+                <h5>Firebase</h5>
                   <div class="container">
                     <div class="skills firebase"></div>
                   </div>
 
                   <br />
-                <p>SQL</p>
+                <h5>SQL</h5>
                   <div class="container">
                     <div class="skills sql"></div>
                   </div>
 
                   <br />
-                <p>Oracle</p>
+                <h5>Oracle</h5>
                   <div class="container">
                     <div class="skills oracle"></div>
                   </div>
 
                   <br />
-                <p>Amazon EC2</p>
+                <h5>Amazon EC2</h5>
                   <div class="container">
                     <div class="skills amazon"></div>
                   </div>
 
                     <br />
-                <p>Tableau Desktop</p>
+                <h5>Tableau Desktop</h5>
                   <div class="container">
                     <div class="skills tableau-desktop"></div>
                   </div>
 
                 <br />
-                <p>Tableau Server</p>
+                <h5>Tableau Server</h5>
                   <div class="container">
                     <div class="skills tableau-server"></div>
                   </div>
+                  </Cell>
+                  </Grid>
 
 
 
