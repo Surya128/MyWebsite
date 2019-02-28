@@ -130,13 +130,14 @@
   padding-top: 5em;
   width: 45%;
   margin-top: 40%;
+  opacity: 0.85;
 }
 
 .banner-text {
   background-color:black;
   opacity: .8;
   width: 60%;
-  top: 25%;
+  top: 0;
   margin: auto;
   position: absolute;
   border-radius: 10px;
