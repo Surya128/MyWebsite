@@ -11,13 +11,13 @@ class App extends Component {
     <Layout>
         <Header 
             className="header-color" 
-            title={<Link style={{textDecoration: 'none', color: '#E50914'}} to="/">MyPortfolio</Link>} scroll>
+            title={<Link style={{textDecoration: 'none', color: '#00d8ff'}} to="/">My Portfolio</Link>} scroll >
                 <Navigation>
                     <Link to="/resume" style={{color: 'white'}} >Resume</Link>
                     <Link to="/aboutme" style={{color: 'white'}} >About Me</Link>
                     <Link to="/projects" style={{color: 'white'}} >Projects</Link>
                     <Link to="/contact" style={{color: 'white'}} >Contact</Link>
-                </Navigation>
+                </Navigation>  
         </Header>
 
         <Drawer 
