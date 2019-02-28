@@ -1,0 +1,245 @@
+
+.header-color {
+  background-color: #1F2833;
+  background: linear-gradient(to right, #1F2833, #1F2833, #1F2833);
+  }
+
+.landing-grid {
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.projects-grid {
+  display: flex;
+  flex: 100;
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.resume-grid {
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+
+}
+
+/* about page */
+
+.about-page {
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 0px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  width: '100%';
+  height: '100%';
+}
+
+.projects-menu {
+  background-image: url("./images/bg.jpg"); 
+  background-size: cover;
+   text-align: center;
+  top: 0;
+  left: 0;
+  width: '100%';
+  height: '100%';
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.react {width: 90%; background-color: #189731;} /* Green */
+.python {width: 80%; background-color: #0ACDD0;} /* Blue */
+.js {width: 65%; background-color: #DE5725;} /* Red */
+.html {width: 90%; background-color: #BD7308;}
+
+
+/*Transition Styles*/
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 200ms linear 100ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 100ms linear;
+}
+
+.App {
+  background-image: url("./images/bg.jpg");
+}
+
