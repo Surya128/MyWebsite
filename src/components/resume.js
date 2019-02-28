@@ -32,8 +32,8 @@ class Resume extends Component {
             <p>(513) 641-8698</p>
             <h5>Email</h5>
             <p>suryaprakash128@outlook.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <h5>WebSite</h5>
+            <a href="https://suryaprakash.netlify.com">Surya's Portfolio</a>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
             <h3>Education</h3>
                   <Education
@@ -102,14 +102,10 @@ class Resume extends Component {
                 "
                 />
 
-
-             <hr style={{borderTop: '3px solid #58C7F4'}} />
-
-              <hr style={{borderTop: '3px solid #58C7F4'}} />
                 <h2>Skills</h2>
 
                 <Grid>
-                  <Cell col={6}>
+                  <Cell col={4}>
                   <h5>React</h5>
                   <div class="container">
                     <div class="skills react"></div>
@@ -158,32 +154,10 @@ class Resume extends Component {
                   </div>
 
                   <br />
-                <h5>C</h5>
-                  <div class="container">
-                    <div class="skills c"></div>
-                  </div>
-
-                 <br />
-                <h5>C++</h5>
-                  <div class="container">
-                    <div class="skills cpp"></div>
-                  </div>
-
-                    <br />
-                <h5>Flask</h5>
-                  <div class="container">
-                    <div class="skills flask"></div>
-                  </div>
-
-                  <br />
-                <h5>Node.js</h5>
-                  <div class="container">
-                    <div class="skills node"></div>
-                  </div>
-                  <br />
+                
 
                   </Cell>
-                  <Cell col={6}>
+                  <Cell col={4}>
 
                 
                   
@@ -229,7 +203,34 @@ class Resume extends Component {
                   </div>
 
                   <br />
-                <h5>Amazon EC2</h5>
+                
+                  </Cell>
+                  <Cell col={4}>
+                  <h5>C</h5>
+                  <div class="container">
+                    <div class="skills c"></div>
+                  </div>
+
+                 <br />
+                <h5>C++</h5>
+                  <div class="container">
+                    <div class="skills cpp"></div>
+                  </div>
+
+                    <br />
+                <h5>Flask</h5>
+                  <div class="container">
+                    <div class="skills flask"></div>
+                  </div>
+
+                  <br />
+                <h5>Node.js</h5>
+                  <div class="container">
+                    <div class="skills node"></div>
+                  </div>
+                  <br />
+
+                  <h5>Amazon EC2</h5>
                   <div class="container">
                     <div class="skills amazon"></div>
                   </div>
