@@ -19,7 +19,7 @@ class LandingPage extends Component {
               src={ require('../images/my_pic.jpg') }
               alt="avatar"
               className="avatar-img"
-              style={{height: '300px'}}
+              style={{height: '230px'}}
               
               />
 
