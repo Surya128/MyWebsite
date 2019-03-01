@@ -11,7 +11,7 @@ class App extends Component {
     <Layout>
         <Header 
             className="header-color" 
-            title={<Link style={{textDecoration: 'none', color: '#00d8ff'}} to="/"><img src={ require('./images/logo.png') } alt ="avatar" style ={ {height: '100px'} }/></Link>} scroll >
+            title={<Link style={{textDecoration: 'none', color: '#00d8ff'}} to="/"><img src={ require('./images/logo.png') } alt ="avatar" style ={ {height: '120px'} }/></Link>} scroll >
                 <Navigation>
                     <Link to="/resume" style={{color: 'white'}} >Resume</Link>
                     <Link to="/aboutme" style={{color: 'white'}} >About Me</Link>
@@ -23,7 +23,7 @@ class App extends Component {
         
 
         <Drawer 
-        title={<Link style={{textDecoration: 'none', color: '#E50914'}} to="/">MyPortfolio</Link>} 
+        title={<Link style={{textDecoration: 'none', color: '#E50914'}} to="/"><img src={ require('./images/logo.png') } alt ="avatar" style ={ {height: '120px'} }/></Link>} 
         className="drawer"
         variant="permanent"
         >
