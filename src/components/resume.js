@@ -21,21 +21,21 @@ class Resume extends Component {
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Surya Prakash</h2>
-            <h4 style={{color: 'black'}}>Full Stack Web Developer</h4>
+            <h2 style={{paddingTop: '2em', color: 'white'}}>Surya Prakash</h2>
+            <h4 style={{color: 'white'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
-            <p>Short Bio</p>
+            <p style={{color: 'white'}}>Short Bio</p>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
-            <h5>Address</h5>
-            <p>707 Martin Luther King Dr W,<br />Cincinnati, OH - 45220</p>
-            <h5>Phone</h5>
-            <p>(513) 641-8698</p>
-            <h5>Email</h5>
-            <p>suryaprakash128@outlook.com</p>
-            <h5>WebSite</h5>
+            <h5 style={{color: 'white'}}>Address</h5>
+            <p style={{color: 'white'}}>707 Martin Luther King Dr W,<br />Cincinnati, OH - 45220</p>
+            <h5 style={{color: 'white'}}>Phone</h5>
+            <p style={{color: 'white'}}>(513) 641-8698</p>
+            <h5 style={{color: 'white'}}>Email</h5>
+            <p style={{color: 'white'}}>suryaprakash128@outlook.com</p>
+            <h5 style={{color: 'white'}}>WebSite</h5>
             <a href="https://suryaprakash.netlify.com">Surya's Portfolio</a>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
-            <h3>Education</h3>
+            <h3 style={{color: 'white'}}>Education</h3>
                   <Education
                   startYear={2017}
                   endYear={2019}
@@ -52,7 +52,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             
-              <h3>Experience</h3>
+              <h3 style={{color: 'white'}}>Experience</h3>
 
             <Experience
               startMonth={10}
