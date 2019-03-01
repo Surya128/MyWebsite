@@ -33,7 +33,7 @@ class Resume extends Component {
             <h5 style={{color: 'white'}}>Email</h5>
             <p style={{color: 'white'}}>suryaprakash128@outlook.com</p>
             <h5 style={{color: 'white'}}>WebSite</h5>
-            <a href="https://suryaprakash.netlify.com">Surya's Portfolio</a>
+            <a href="https://suryaprakash.netlify.com" target="_blank" rel="noopener noreferrer">Surya's Portfolio</a>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
             <h3 style={{color: 'white'}}>Education</h3>
                   <Education
