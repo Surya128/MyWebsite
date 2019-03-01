@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 
 class Projects extends Component {
@@ -23,9 +23,6 @@ class Projects extends Component {
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Project 2 */}
@@ -38,9 +35,6 @@ class Projects extends Component {
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           {/* Project 3 */}
@@ -53,9 +47,6 @@ class Projects extends Component {
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
 
@@ -75,9 +66,6 @@ class Projects extends Component {
             <CardActions border>
               <Button colored><a href = "https://github.com/Surya128/festival-reg-system" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
 
@@ -92,9 +80,6 @@ class Projects extends Component {
             <CardActions border>
               <Button colored><a href = "https://github.com/Surya128/keyword_cover" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
 
@@ -117,9 +102,6 @@ class Projects extends Component {
             <CardActions border>
               <Button colored><a href = "https://github.com/Surya128/CQA" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
 
@@ -134,9 +116,6 @@ Framework : Django<br/>
             <CardActions border>
               <Button colored><a href = "https://github.com/Surya128/Auction_system" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
 
@@ -151,9 +130,6 @@ Framework : Django<br/>
             <CardActions border>
               <Button colored><a href = "https://github.com/Surya128/classification-of-music-genre" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
 
@@ -164,16 +140,12 @@ Framework : Django<br/>
       return (
         <div className="projects-grid">
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://www.itopstimes.com/wp-content/uploads/2018/09/cloud-computing-1990405_960_720-490x338.png) center / cover'}} >Cloud Project #1</CardTitle>
+            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://www.itopstimes.com/wp-content/uploads/2018/09/cloud-computing-1990405_960_720-490x338.png) center / cover'}} >Cincinnati weather forecast</CardTitle>
             <CardText>
-              Project Description
+            - Developed and deployed a web application on AWS which displays the data about Cincinnati weather using Python, Flask, Sqlite. <br/>
+- It also tells the weather forecast for a particular set of days based on the selection.
+
               </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       )
