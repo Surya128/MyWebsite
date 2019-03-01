@@ -18,13 +18,13 @@ class Contact extends Component {
 
           </Cell>
           <Cell col={6}>
-            <h2 style={{color:'white'}}>Contact Me</h2>
+            <h2 style={{color:'white'}} align="center" >Contact Me</h2>
             <hr/>
 
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color:'white'}}>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'sans-serif', color:'white'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     (513) 641-8698
                   </ListItemContent>
@@ -33,14 +33,14 @@ class Contact extends Component {
                 
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '28px', fontFamily: 'Anton', color:'white'}}>
+                  <ListItemContent style={{fontSize: '28px', fontFamily: 'sans-serif', color:'white'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     suryaprakash128@outlook.com
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton', color:'white'}}>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'sans-serif', color:'white'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
                     MySkypeID
                   </ListItemContent>
