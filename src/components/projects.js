@@ -66,13 +66,12 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/eb7e73a0-96da-11e6-b385-00163ed833e7/4013307709/apple-java-for-mac-screenshot.png) center / cover'}} >Java Project #1</CardTitle>
             <CardText>
               Project Description
               </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -82,11 +81,37 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1 style={{color: 'white'}}>This is Python</h1></div>
+        <div className="projects-grid">
+           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover'}} >Python Project #1</CardTitle>
+            <CardText>
+              Project Description
+              </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1 style={{color: 'white'}}>This is Cloud</h1></div>
+        <div className="projects-grid">
+           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://www.itopstimes.com/wp-content/uploads/2018/09/cloud-computing-1990405_960_720-490x338.png) center / cover'}} >Cloud Project #1</CardTitle>
+            <CardText>
+              Project Description
+              </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
       )
     }
 
