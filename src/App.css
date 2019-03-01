@@ -32,14 +32,13 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background: #000000;
   color: white;
   padding: 2em;
 }
 
 .resume-grid {
-  background-image: url("./images/bg.jpg"); 
-  background-size: cover;
+  background-color: #000000;
   text-align: center;
   position: relative;
   top: 0;
