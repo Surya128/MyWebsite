@@ -52,8 +52,7 @@
 /* about page */
 
 .about-page {
-  background-image: url("./images/bg.jpg"); 
-  background-size: cover;
+  background-color: #000000;
   text-align: center;
   top: 0;
   left: 0;
@@ -70,7 +69,6 @@
 
 .contact-body {
   margin: auto;
-  
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -81,6 +79,7 @@
 }
 
 .contact-grid {
+  background-color: #000000;
   text-align: center;
   justify-content: center;
   width: 100%;
@@ -92,8 +91,6 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url("./images/bg.jpg"); 
-  background-size: cover;
   top: 0;
   left: 0;
   bottom: 0;
@@ -175,8 +172,7 @@
 }
 
 .projects-grid {
-  background-image: url("./images/bg.jpg"); 
-  background-size: cover;
+  background-color: #000000;
   text-align: center;
   top: 0;
   left: 0;
@@ -187,9 +183,7 @@
 }
 
 .projects-menu {
-  background-image: url("./images/bg.jpg"); 
-  background-size: cover;
-   text-align: center;
+  text-align: center;
   top: 0;
   left: 0;
   width: '100%';
