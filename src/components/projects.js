@@ -21,7 +21,6 @@ class Projects extends Component {
               </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -37,7 +36,6 @@ class Projects extends Component {
               </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -53,7 +51,6 @@ class Projects extends Component {
               </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -65,6 +62,33 @@ class Projects extends Component {
 
       )
     } 
+    else if(this.state.activeTab === 1) {
+      return (
+        <div className="projects-grid">
+           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardText>
+              Project Description
+              </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+        </div>
+      )
+    } else if(this.state.activeTab === 2) {
+      return (
+        <div><h1 style={{color: 'white'}}>This is Python</h1></div>
+      )
+    } else if(this.state.activeTab === 3) {
+      return (
+        <div><h1 style={{color: 'white'}}>This is Cloud</h1></div>
+      )
+    }
 
   }
 
@@ -74,7 +98,10 @@ class Projects extends Component {
     return(
       <div className = "projects-menu">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
+          <Tab style={{color: 'white'}}>React</Tab>
+          <Tab style={{color: 'white'}}>Java</Tab>
+          <Tab style={{color: 'white'}}>Python</Tab>
+          <Tab style={{color: 'white'}}>Cloud</Tab>
         </Tabs>
 
 
