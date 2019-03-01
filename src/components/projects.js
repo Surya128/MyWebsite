@@ -66,7 +66,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/eb7e73a0-96da-11e6-b385-00163ed833e7/4013307709/apple-java-for-mac-screenshot.png) center / cover'}} >Development of Festival Registration System using Spring MVC and Servlets</CardTitle>
+            <CardTitle style={{color: '#000000', height: '230px', background: 'url(https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/eb7e73a0-96da-11e6-b385-00163ed833e7/4013307709/apple-java-for-mac-screenshot.png) center / cover'}} >Development of Festival Registration System using Spring MVC and Servlets</CardTitle>
             <CardText>
             - Developed a web application where a user can view, edit their details, register and search one or more events. Admin can view , update , delete , add , register an event/s.<br />
 - Authentication and authorization of users is done on the server side and the validation of input fields is done on the client side.<br />
@@ -79,6 +79,25 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+
+        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/eb7e73a0-96da-11e6-b385-00163ed833e7/4013307709/apple-java-for-mac-screenshot.png) center / cover'}} >Best Keyword Cover Search</CardTitle>
+            <CardText>
+            - Developed an application which uses Closest Keywords search to query objects.<br/>
+- It uses k-NNE algorithm which significantly reduces the number of candidate keyword covers generated. <br/>
+- Front End is developed using AWT, Swing and the Back End is developed using JAVA , Mysql.<br/>
+- k-NNE algorithm applies a different processing strategy, searching local best solution for each object in a certain query keyword. As a consequence, the number of candidate keyword covers generated is significantly reduced.<br/>
+              </CardText>
+            <CardActions border>
+              <Button colored><a href = "https://github.com/Surya128/keyword_cover" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+
         </div>
       )
     } else if(this.state.activeTab === 2) {
@@ -105,7 +124,7 @@ class Projects extends Component {
 
 
         <Card shadow={5} style={{width: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '425px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover'}} >Development of Online Auction System using bootstrap and django</CardTitle>
+            <CardTitle style={{color: '#000000', height: '427px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover'}} >Development of Online Auction System using bootstrap and django</CardTitle>
             <CardText>
             - Designed and Developed a web based auction system that satisfies the requirements of ease of use, adaptability of changing requirements, maintainable and has a scope of reusability.<br />
 Front end : Bootstrap, Python , jQuery<br/>
@@ -120,6 +139,22 @@ Framework : Django<br/>
             </CardMenu>
           </Card>
 
+
+<Card shadow={5} style={{width: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#000000', height: '337px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png) center / cover'}} >Classification of Music Genre using Logistic Regression and KNN Classifier</CardTitle>
+            <CardText>
+            - Developed a web application which is written in Python using Django framework that classifies the music based on its genre.<br/>
+- We have used Ajax, AngularJS, jQuery and Bootstrap for developing the frontend.<br/>
+- Dataset of 1000 audio files is taken and features are extracted from it. We chose to extract MFCC from the audio files as the feature.<br/>
+- Various Machine Learning algorithms like K-NN, Logistic Regression and SVM are used and the one which gave the highest testing accuracy is chosen.<br/>
+              </CardText>
+            <CardActions border>
+              <Button colored><a href = "https://github.com/Surya128/classification-of-music-genre" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
 
 
 
