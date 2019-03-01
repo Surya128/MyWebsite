@@ -28,7 +28,7 @@ class LandingPage extends Component {
           <Cell col={8}>
           
           <div className="banner-text">
-                <h1>
+                <h1 style={{color: 'white'}}>
                 Surya Prakash
                 <br />
                 <h2>Full Stack Web Developer</h2>
