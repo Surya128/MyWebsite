@@ -140,7 +140,7 @@ Framework : Django<br/>
       return (
         <div className="projects-grid">
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://www.itopstimes.com/wp-content/uploads/2018/09/cloud-computing-1990405_960_720-490x338.png) center / cover'}} >Cincinnati weather forecast</CardTitle>
+            <CardTitle style={{color: '#000000', height: '176px', background: 'url(https://www.itopstimes.com/wp-content/uploads/2018/09/cloud-computing-1990405_960_720-490x338.png) center / cover'}} >Weather forecast API</CardTitle>
             <CardText>
             - Developed and deployed a web application on AWS which displays the data about Cincinnati weather using Python, Flask, Sqlite. <br/>
 - It also tells the weather forecast for a particular set of days based on the selection.
@@ -149,7 +149,7 @@ Framework : Django<br/>
           
 
           <CardActions border>
-              <Button colored><a href = "https://github.uc.edu/chittivh/as3" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+              <Button colored><a href = "https://github.com/Surya128/cloud" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
             </CardActions>
             </Card>
 
