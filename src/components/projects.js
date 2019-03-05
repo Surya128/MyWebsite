@@ -146,7 +146,15 @@ Framework : Django<br/>
 - It also tells the weather forecast for a particular set of days based on the selection.
 
               </CardText>
-          </Card>
+          
+
+          <CardActions border>
+              <Button colored><a href = "https://github.uc.edu/chittivh/as3" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+            </CardActions>
+            </Card>
+
+
+
         </div>
       )
     }
