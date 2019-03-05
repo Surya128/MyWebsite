@@ -15,17 +15,18 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >My PortFolio</CardTitle>
             <CardText>
-              Project Description
+              - Developed my portfolio website using React, React Router.<br/>
+              - Styled the components using CSS, CSS Transition groups, React Material UI.
               </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://github.com/Surya128/MyWebsite" target="_blank" rel="noopener noreferrer">GitHub</a></Button>
+              
             </CardActions>
           </Card>
 
-          {/* Project 2 */}
+          {/* Project 2 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
@@ -35,9 +36,9 @@ class Projects extends Component {
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-          </Card>
+          </Card> */}
 
-          {/* Project 3 */}
+          {/* Project 3 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
@@ -47,7 +48,7 @@ class Projects extends Component {
               <Button colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-          </Card>
+          </Card>*/}
         </div>
 
 
