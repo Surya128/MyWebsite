@@ -33,19 +33,13 @@ class Contact extends Component {
                 
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '28px', fontFamily: 'sans-serif', color:'white'}}>
+                  <ListItemContent style={{fontSize: '30px', fontFamily: 'sans-serif', color:'white'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                     suryaprakash128@outlook.com
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'sans-serif', color:'white'}}>
-                    <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID
-                  </ListItemContent>
-                </ListItem>
-
+                
 
               </List>
             </div>
