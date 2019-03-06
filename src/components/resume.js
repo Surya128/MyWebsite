@@ -24,7 +24,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em', color: 'white'}}>Surya Prakash</h2>
             <h4 style={{color: 'white'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
-            <p style={{color: 'white'}}>Short Bio</p>
+            <p style={{color: 'white',textAlign: 'center'}}>Full-Stack Developer who is passionate about Computer Science. Looking forward to working with a Company that will allow me to expand and utilize my education and skills, while being a major asset to the Company and also a good team player with great communication skills. Highly driven with a passion for learning new ways to solve complex problems.</p>
             <hr style={{borderTop: '3px solid #58C7F4', width: '100%'}}/>
             <h5 style={{color: 'white'}}>Address</h5>
             <p style={{color: 'white'}}>707 Martin Luther King Dr W,<br />Cincinnati, OH - 45220</p>
