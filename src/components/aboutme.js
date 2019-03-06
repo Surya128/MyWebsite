@@ -19,8 +19,7 @@ class About extends Component {
 > Programming for Everybody(Getting Started with Python) - Coursera<br/><br/><br/>
 > Java Certification - Orbit Technology Research Pvt Ltd<br/><br/><br/>
 > Oracle Certification - Orbit Technology Research Pvt Ltd<br/><br/><br/>
-Work Experience
-   10/2018 - present</h5>
+</h5>
              
 
         </Cell>
