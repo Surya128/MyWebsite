@@ -59,7 +59,7 @@ class Resume extends Component {
               startYear={2018}
               endMonth={5}
               endYear={2019}
-              jobName="Software Developer Intern, TechnoVision Solutions, Farmington, MI "
+              jobName="Software Developer Intern, TechnoVision Solutions (Michigan) "
               jobDescription=
               "
               Developed user interface by using the React JS, Redux for SPA development.
@@ -90,7 +90,7 @@ class Resume extends Component {
                 startYear={2016}
                 endMonth={6}
                 endYear={2017}
-                jobName="Web Developer, Krest Technologies, Hyderabad, India"
+                jobName="Web Developer, Krest Technologies (India) "
                 jobDescription=
                 "
                 Worked on an Agile (Scrum) Development Team to deliver regular updates to business team and project managers.
