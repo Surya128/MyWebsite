@@ -59,7 +59,7 @@ class Resume extends Component {
               startYear={2018}
               endMonth={5}
               endYear={2019}
-              jobName="Software Developer Intern, TechnoVision Solutions (Michigan) "
+              jobName="Software Developer Internship, TechnoVision Solutions (Michigan) "
               jobDescription=
               "
               Developed user interface by using the React JS, Redux for SPA development.
