@@ -3,7 +3,6 @@ import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
 class Contact extends Component {
   render() {
-    return(
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
