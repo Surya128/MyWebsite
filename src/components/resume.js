@@ -31,14 +31,14 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #58C7F4", width: "100%" }} />
             <h5 style={{ color: "white" }}>Address</h5>
             <p style={{ color: "white" }}>
-              707 Martin Luther King Dr W,
+              4949 Printers way,
               <br />
-              Cincinnati, OH - 45220
+              Frisco, TX - 75033
             </p>
             <h5 style={{ color: "white" }}>Phone</h5>
-            <p style={{ color: "white" }}>(513) 641-8698</p>
+            <p style={{ color: "white" }}>(513) 666-8055</p>
             <h5 style={{ color: "white" }}>Email</h5>
-            <p style={{ color: "white" }}>suryaprakash128@outlook.com</p>
+            <p style={{ color: "white" }}>chittivh@mail.uc.edu</p>
             <h5 style={{ color: "white" }}>WebSite</h5>
             <a
               href="https://suryaprakash.netlify.com"
