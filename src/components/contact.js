@@ -31,7 +31,7 @@ class Contact extends Component {
                     }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />
-                    (513) 666-8055
+                    (513) 641-8698
                   </ListItemContent>
                 </ListItem>
 
