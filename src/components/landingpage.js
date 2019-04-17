@@ -26,7 +26,7 @@ class LandingPage extends Component {
               <h1 style={{ color: "white" }}>
                 Surya Prakash
                 <br />
-                <h2> Full Stack Developer</h2>
+                <h2> Web Developer</h2>
               </h1>
 
               <p>
